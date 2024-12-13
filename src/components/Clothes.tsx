@@ -13,11 +13,11 @@ const Clothes = () => {
           {/* First Grid for 4 cards */}
           <div className="grid grid-cols-4 gap-6">
             {/* Card 1 */}
-            <div className="bg-white shadow-lg rounded-lg overflow-hidden">
-              <img
+            <div className="bg-white shadow-lg rounded-lg overflow-hidden  ">
+              <img  
                 src="./image 7.png" 
                 alt="Product Image 1"
-                className="w-full h-48 object-cover"
+                className="w-full h-48 object-cover "
               />
               <div className="p-4">
                 <h3 className="font-semibold text-lg">T-SHIRT WITH TAPE DETAILS</h3>
@@ -27,7 +27,7 @@ const Clothes = () => {
             </div>
 
             {/* Card 2 */}
-            <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+            <div className="bg-white shadow-lg rounded-lg overflow-hidden hover:bg-blue-700">
               <img
                 src="./image 8.png" //
                 alt="Product Image 2"
@@ -41,15 +41,15 @@ const Clothes = () => {
             </div>
 
             {/* Card 3 */}
-            <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+            <div className="bg-white shadow-lg rounded-lg overflow-hidden ">
               <img
                 src="./image 9.png" // Replace with actual image URL
                 alt="Product Image 3"
                 className="w-full h-48 object-cover"
               />
-              <div className="p-4">
+              <div className="p">
                 <h3 className="font-semibold text-lg">CHECKERED SHIRT</h3>
-                <img src="./stars.png" alt="Rating Stars" />
+                <img src="./stars.png" alt="Rating Stars"/>
                 <p className="text-black font-bold mt-2">$130.4</p>
               </div>
             </div>
@@ -80,8 +80,8 @@ const Clothes = () => {
           {/* Second Grid for 4 cards */}
           <div className="grid grid-cols-4 gap-6">
             {/* Card 5 */}
-            <div className="bg-white shadow-lg rounded-lg overflow-hidden">
-              <img
+            <div className="bg-white shadow-lg rounded-lg overflow-hidden hover:bg-blue-700">
+              <img 
                 src="./Frame 32.png" // Replace with actual image URL
                 alt="Product Image 5"
                 className="w-full h-48 object-cover"
@@ -138,10 +138,6 @@ const Clothes = () => {
         </div>
       </div>
     </div>
-
-
-    
-
 
 
   )}

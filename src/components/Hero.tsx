@@ -8,7 +8,8 @@ const Hero = () => {
         src="./girlboy.png"
         alt="A stylish boy and girl showcasing fashion"
         className="w-full h-full object-cover"
-      />
+        />
+     
 
       {/* Overlay Content on Left */}
       <div>
@@ -16,6 +17,8 @@ const Hero = () => {
         <h1 className="text-5xl font-bold mb-3">Find Clothes</h1>
         <h1 className="text-5xl font-bold mb-3">That Match</h1>
         <h1 className="text-5xl font-bold mb-3">Your Style</h1>
+
+        
         
         <p className="text-xs mb-4 max-w-[300px] font-sarief font-light text-gray-700 leading-relaxed">
           Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.
@@ -24,20 +27,45 @@ const Hero = () => {
         <button className="bg-black text-white px-9 py-3 rounded-3xl hover:bg-gray-500">
           Shop Now
         </button>
-      </div>
-      </div>
+      
 
 
- {/*  */}
+
+      {/* price card section */}
+<div>
+  <div className='flex justify-evenly  gap-6 pt-9'>
+    <img  src="./Frame 55.png" alt="card" />
+    <img src="./Frame 54.png" alt="card" />
+    <img src="./Frame 56.png" alt="card" />
+  </div>
+</div>
+</div>
+
+
+ {/* close card sec */}
+      </div>
+
+      
+{/* blck line brands */}
  <div className="relative w-full bg-black h-12">
   {/* Horizontally aligned list */}
-  <ul className="absolute top-[-10px] left-0 w-full flex justify-evenly text-white space-x-6 z-10 pt-5">
-    <li>VEASACE</li>
-    <li>ZARA</li>
-    <li>GUCCI</li>
-    <li>PRADA</li>
-    <li>CALVIN CLEIN</li>
+  <ul className="absolute top-[-10px] left-0 w-full flex justify-evenly text-white  z-10 pt-5 items-center ">
+   
+    <img src="./Vector.png" alt="img" />
+    <img src="./zara-logo-1 1.png" alt="img" />
+    <img src="./gucci-logo-1 1.png" alt="img" />
+    <img src="./prada-logo-1 1.png" alt="img" />
+    <img src="./Vector (1).png" alt="" />
   </ul>
+</div>
+
+{/* price card section */}
+<div>
+  <div className='flex '>
+    <img src="./Frame 55.png" alt="card" />
+    <img src="./Frame 54.png" alt="card" />
+    <img src="./Frame 56.png" alt="card" />
+  </div>
 </div>
 
 

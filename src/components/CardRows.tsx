@@ -4,9 +4,9 @@ import React from 'react'
 const CardsRows = () => {
   return (
     // <div className="flex justify-between items-start w-full gap-6">
-    <div className="w-[90%] mx-auto flex justify-between items-start gap-6">
+    <div className="w-[90%] mx-auto flex justify-between items-start gap-6 ">
   {/* Card 1 */}
-  <div className="bg-white shadow-lg rounded-lg p-4 w-1/3">
+  <div className="bg-white shadow-lg rounded-lg p-4 w-1/3  hover:bg-slate-300">
     {/* Image */}
     <img
       src="./five.png"
@@ -16,7 +16,7 @@ const CardsRows = () => {
     />
 
     {/* Name and Icon */}
-    <div className="flex items-center mt-4">
+    <div className="flex items-center mt-4 ">
       <h3 className="font-bold text-lg">Sarah M.</h3>
       <img
         src="./right.png"
@@ -34,7 +34,7 @@ const CardsRows = () => {
   </div>
 
   {/* Card 2 */}
-  <div className="bg-white shadow-lg rounded-lg p-4 w-1/3">
+  <div className="bg-white shadow-lg rounded-lg p-4 w-1/3  hover:bg-slate-300">
     {/* Image */}
     <img
       src="./five.png"
@@ -60,7 +60,7 @@ const CardsRows = () => {
   </div>
 
   {/* Card 3 */}
-  <div className="bg-white shadow-lg rounded-lg p-4 w-1/3">
+  <div className="bg-white shadow-lg rounded-lg p-4 w-1/3  hover:bg-slate-300">
     {/* Image */}
     <img
       src="./five.png"

@@ -1,8 +1,10 @@
 import React from 'react'
+
+
 import { CiSearch } from "react-icons/ci";
 import { AiOutlineHeart, AiOutlineShoppingCart } from 'react-icons/ai'
 
-const Nav = () => {
+const page = () => {
   return (
     <div className='w-full h-[80px] flex items-center border-b-2'>
     <div className="w-full h-full flex items-center ">
@@ -36,7 +38,12 @@ const Nav = () => {
       </div>
     </div>
   </div>
-  )
-}
+    
 
-export default Nav
+
+  )
+  
+}  
+
+
+export default page
