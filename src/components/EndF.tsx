@@ -6,7 +6,7 @@ const EndF = () => {
     <div className="flex justify-between">
       {/* Left Section: Logo and Description */}
       <div className="w-1/5">
-        <h1 className="text-2xl font-bold text-black">SHOP.CO</h1>
+        <h1 className="text-2xl font-bold text-black">SHOP CO</h1>
         <p className="text-gray-600 mt-2">
           We have clothes that suit your style and which you're proud to wear. From women to men.
         </p>
@@ -69,7 +69,7 @@ const EndF = () => {
 
     {/* Footer Bottom Section */}
     <div className="mt-8 pt-5 text-end text-gray-500 text-sm ">
-      <p>Shop.co © 2000-2023, All Rights Reserved</p>
+      <p>Shop co © 2000-2023, All Rights Reserved</p>
       <div className="flex justify-end   items-center pr-5 space-x-4 mt-4">
          <img src="./visa.png" alt="Visa" className="w-12 h-10" />
          <img src="./Mastercard.png" alt="PayPal" className="w-8 h-6" />
