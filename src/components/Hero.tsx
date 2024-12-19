@@ -1,4 +1,6 @@
+import Image from 'next/image';
 import React from 'react';
+Image
 
 const Hero = () => {
   return (
@@ -49,13 +51,14 @@ const Hero = () => {
 {/* blck line brands */}
  <div className="relative w-full bg-black h-12">
   {/* Horizontally aligned list */}
-  <ul className="absolute top-[-10px] left-0 w-full flex justify-evenly text-white  z-10 pt-5 items-center ">
+  <ul className="absolute top-[-10px] left-0 w-full flex justify-evenly text-white  z-10 pt-4  items-center ">
    
-    <img src="./Vector.png" alt="img" />
-    <img src="./zara-logo-1 1.png" alt="img" />
-    <img src="./gucci-logo-1 1.png" alt="img" />
-    <img src="./prada-logo-1 1.png" alt="img" />
-    <img src="./Vector (1).png" alt="" />
+     <Image  src="/vector.png"  alt="img" width={100} height={50}/>
+    <Image  src="/zara-logo-1 1.png"  alt="img" width={100} height={200}/>
+    <Image  src="/gucci-logo-1 1.png"  alt="img" width={100} height={200}/>
+    <Image  src="/prada-logo-1 1.png"  alt="img" width={100} height={50}/>
+    <Image  src="/Vector (1).png"  alt="img" width={100} height={200}/>
+    
   </ul>
 </div>
 
